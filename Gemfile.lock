@@ -106,7 +106,7 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
-    rails (4.2.0)
+    rails (4.2.8)
       actionmailer (= 4.2.0)
       actionpack (= 4.2.0)
       actionview (= 4.2.0)
@@ -223,7 +223,7 @@ DEPENDENCIES
   pg
   puma (~> 3.12)
   rack-cors (~> 0.3, >= 0.3.1)
-  rails (= 4.2.0)
+  rails (= 4.2.8)
   rails_12factor (~> 0.0, >= 0.0.3)
   rspec-rails (~> 3.0, >= 3.1.0)
   sass-rails (~> 5.0)
