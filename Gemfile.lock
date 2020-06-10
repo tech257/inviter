@@ -118,9 +118,9 @@ GEM
       railties (= 4.2.8)
       sprockets-rails
     rails-deprecated_sanitizer (1.0.3)
-      activesupport (>= 4.2.8.alpha)
+      activesupport (>= 4.2.0.alpha)
     rails-dom-testing (1.0.5)
-      activesupport (>= 4.2.8.beta, < 5.0)
+      activesupport (>= 4.2.0.beta, < 5.0)
       nokogiri (~> 1.6.0)
       rails-deprecated_sanitizer (>= 1.0.1)
     rails-html-sanitizer (1.0.1)
