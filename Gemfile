@@ -11,7 +11,7 @@ gem 'uglifier', '>= 1.3.0'
 
 gem 'jbuilder', '~> 2.0'
 gem 'jquery-rails'
-gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'sdoc', '~> 1.1.0', group: :doc
 gem 'turbolinks'
 
 gem 'rack-cors', '~> 0.3', '>= 0.3.1'
