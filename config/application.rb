@@ -1,4 +1,6 @@
-require File.expand_path('../boot', __FILE__)
+# frozen_string_literal: true
+
+require File.expand_path('boot', __dir__)
 
 require 'rails/all'
 
@@ -23,13 +25,13 @@ module Inviter
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
 
-    config.middleware.insert_before 0, "Rack::Cors" do
+    config.middleware.insert_before 0, 'Rack::Cors' do
       allow do
-        origins "tech257.github.io", "tech257.io", "www.tech257.io", "localhost:4000"
-        resource "/invitations",
-          headers: :any,
-          methods: [:post],
-          max_age: 3600
+        origins 'tech257.github.io', 'tech257.io', 'www.tech257.io', 'localhost:4000'
+        resource '/invitations',
+                 headers: :any,
+                 methods: [:post],
+                 max_age: 3600
       end
     end
   end
