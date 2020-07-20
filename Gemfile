@@ -26,7 +26,7 @@ group :development, :test do
   gem 'foreman', '~> 0.77'
   gem 'rspec-rails', '~> 3.0', '>= 3.1.0'
   gem 'spring'
-  gem 'web-console', '~> 2.0'
+  gem 'web-console', '~> 2.1'
 end
 
 group :production do
