@@ -14,7 +14,7 @@ gem 'jquery-rails'
 gem 'sdoc', '~> 1.1.0', group: :doc
 gem 'turbolinks'
 
-gem 'rack-cors', '~> 0.3', '>= 0.3.1'
+gem 'rack-cors', '~> 1.0'
 
 gem 'sidekiq', '~> 3.3', '>= 3.3.1'
 gem 'sinatra', '~> 1.4', '>= 1.4.5', require: nil
