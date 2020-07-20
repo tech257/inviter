@@ -16,7 +16,7 @@ gem 'turbolinks'
 
 gem 'rack-cors', '~> 0.3', '>= 0.3.1'
 
-gem 'sidekiq', '~> 3.3', '>= 3.3.1'
+gem 'sidekiq', '~> 3.4'
 gem 'sinatra', '~> 1.4', '>= 1.4.5', require: nil
 
 gem 'virtus', '~> 1.0', '>= 1.0.4'
