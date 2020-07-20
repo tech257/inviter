@@ -5,7 +5,7 @@ ruby '2.4.10'
 
 gem 'coffee-rails', '~> 4.1.0'
 gem 'pg'
-gem 'rails', '4.2.8'
+gem 'rails', '4.2.11.1'
 gem 'sass-rails', '~> 6.0'
 gem 'uglifier', '>= 1.3.0'
 
