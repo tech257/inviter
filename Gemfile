@@ -24,7 +24,7 @@ gem 'virtus', '~> 1.0', '>= 1.0.4'
 group :development, :test do
   gem 'byebug'
   gem 'foreman', '~> 0.77'
-  gem 'rspec-rails', '~> 3.0', '>= 3.1.0'
+  gem 'rspec-rails', '~> 4.1'
   gem 'spring'
   gem 'web-console', '~> 2.0'
 end
